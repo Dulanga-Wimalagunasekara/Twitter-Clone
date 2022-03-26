@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+*.row > div{
+    border: 1px solid black;
+}
+
+header{
+    height: 75px;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+}
+
+header .row{
+    flex-grow: 1;
+    height: inherit;
+}
+
+header .row #logo div svg{
+    height: 2rem;
+    color: rgb(29, 155, 240);
+}
+
+header #star-logo{
+    height: 20px;
+    width: 20px;
+}
+
+header #mid-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
