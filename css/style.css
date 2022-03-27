@@ -58,6 +58,10 @@ header #search-field #search-icon svg {
     width: 32px;
 }
 
+header #search-field #search-icon{
+   margin-left: 10px;
+}
+
 main{
     margin-top: 1rem;
 }
@@ -286,6 +290,34 @@ main #image-col svg{
 #mid-div #post img{
     width: 60px;
 }
+
+#mid-div #post #post-image{
+    display: block;
+    width: 100%;
+}
+
+#mid-div #post span{
+    font-weight: bold;
+}
+
+#mid-div #icons svg{
+    height: 18.75px;
+    width: 18.75px;
+    flex-wrap: nowrap;
+}
+
+#mid-div #icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+
+
+
 
 
 
