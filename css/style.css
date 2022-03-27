@@ -6,8 +6,7 @@
 }
 
 header{
-    height: 75px;
-    background-color: lightgreen;
+    height: 40px;
     display: flex;
     align-items: center;
 }
@@ -19,7 +18,12 @@ header .row{
 
 header .row #logo div svg{
     height: 2rem;
-    color: rgb(29, 155, 240);
+    fill: rgb(29, 155, 240);
+}
+
+header .row #logo{
+    display: flex;
+    align-items: center;
 }
 
 header #star-logo{
@@ -32,6 +36,262 @@ header #mid-bar{
     justify-content: space-between;
     align-items: center;
 }
+
+header #search-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; 
+    background-color: rgba(122,132,143,.1);
+    border-radius: 9999px;
+}
+
+header #search-field #input-field{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+header #search-field #search-icon svg {
+    fill: rgb(83, 100, 113);
+    padding-left: 12px;
+    width: 32px;
+}
+
+main{
+    margin-top: 1rem;
+}
+
+main #home-col div svg{
+    height: 1.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav #home-col div div > label{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+nav #home-col > div{
+    display: flex;
+    width: min-content;
+    border-radius: 9999px;
+    height: 45px;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+
+}
+
+main #explore-col div svg{
+    height: 1.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav #explore-col div div > label{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+nav #explore-col > div{
+    display: flex;
+    width: min-content;
+    border-radius: 9999px;
+    height: 45px;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+main #notifications-col div svg{
+    height: 1.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav #notifications-col div div > label{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+nav #notifications-col > div{
+    display: flex;
+    width: min-content;
+    border-radius: 9999px;
+    height: 45px;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+main #messages-col div svg{
+    height: 1.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav #messages-col div div > label{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+nav #messages-col > div{
+    display: flex;
+    width: min-content;
+    border-radius: 9999px;
+    height: 45px;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+main #bookmarks-col div svg{
+    height: 1.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav #bookmarks-col div div > label{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+nav #bookmarks-col > div{
+    display: flex;
+    width: min-content;
+    border-radius: 9999px;
+    height: 45px;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+main #lists-col div svg{
+    height: 1.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav #lists-col div div > label{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+nav #lists-col > div{
+    display: flex;
+    width: min-content;
+    border-radius: 9999px;
+    height: 45px;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+main #profile-col div svg{
+    height: 1.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav #profile-col div div > label{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+nav #profile-col > div{
+    display: flex;
+    width: min-content;
+    border-radius: 9999px;
+    height: 45px;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+main #more-col div svg{
+    height: 1.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav #more-col div div > label{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+nav #more-col > div{
+    display: flex;
+    width: min-content;
+    border-radius: 9999px;
+    height: 45px;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+main #button button{
+    width: 220px;
+    background-color: rgb(29, 155, 240);
+    box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
+    outline-style: none;
+    min-width: 52px;
+    min-height: 52px;
+    border-radius: 9999px;
+}
+
+main #button{
+    display: flex;
+    margin-top: 20px;
+}
+
+main #image-col div > img{
+    width: 50px;
+    height: 50px;
+}
+
+main #image-col div{
+    display: flex;
+    border-radius: 9999px;
+    box-shadow: rgb(0 0 0 / 3%) 0px 0px 2px inset;
+    border-color: 2px solid gray;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 320px;
+       
+}
+
+main #image-col svg{
+      width: 30px;
+      justify-self: flex-end;
+}
+
+#mid-div #post img{
+    width: 60px;
+}
+
+
+
+
+
+
 
 
 
