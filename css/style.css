@@ -1,14 +1,15 @@
 *{
     box-sizing: border-box;
 }
-*.row > div{
+/* *.row > div{
     border: 1px solid black;
-}
+} */
 
 header{
     height: 40px;
     display: flex;
     align-items: center;
+    background-color: white;
 }
 
 header .row{
@@ -25,6 +26,14 @@ header .row #logo{
     display: flex;
     align-items: center;
 }
+
+header .row #logo > div:hover{
+    border-radius: 30px;
+    background-color: rgba(122,132,143,.1);
+    cursor: pointer;
+}
+
+
 
 header #star-logo{
     height: 20px;
@@ -63,13 +72,16 @@ header #search-field #search-icon{
 }
 
 main{
-    margin-top: 1rem;
+    margin-top: 60px;
 }
 
 main #home-col div svg{
     height: 1.75rem;
     padding-left: 20px;
     padding-right: 20px;
+}
+nav .row > div >div:hover{
+    background-color: rgba(122,132,143,.1);
 }
 
 nav #home-col div div > label{
@@ -258,6 +270,7 @@ main #button button{
     min-width: 52px;
     min-height: 52px;
     border-radius: 9999px;
+    border-color:rgb(29, 155, 240) ;
 }
 
 main #button{
@@ -312,6 +325,49 @@ main #image-col svg{
     align-items: center;
     padding: 10px;
 }
+
+#right-panel #section-trends{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#right-panel #section-trends svg{
+    width: 18.75px;
+    height: 18.75px;
+}
+
+#right-panel #dots-icon{
+    height: 18.75px;
+    width: 18.75px;
+    
+}
+
+#right-panel #sub-divs{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    cursor: pointer;
+}
+
+#right-panel #sub-divs:hover{
+    background-color: rgba(122,132,143,.1);
+}
+
+#right-panel #sub-divs div{
+    width: fit-content;
+}
+
+#first{
+    background-color: rgba(122,132,143,.1);
+    border-radius: 20px;
+}
+
+#first section{
+    padding-left: 20px;
+}
+
 
 
 
